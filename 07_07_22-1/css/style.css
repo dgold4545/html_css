@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #373737;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.nav_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FF0000;
+    letter-spacing: 2.7px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-right: 72px;
+}
+.short_margin {
+    margin-right: 50px;
+}
+.main_img {
+    display: block;
+}
+
+.main-tittle {
+    
+    letter-spacing: 3.3px;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 48px 0 38px;
+}
+.conteiner_small {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+.main-description {
+    
+    letter-spacing: 2.4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.btn {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+    line-height: 12px;
+    border: 1px solid #FF0000;
+    border-radius: 4px;
+    padding: 18px 43px;
+    background-color: #FF0000;
+    display: block;
+    max-width: 191px;
+    text-align: center;
+    margin: 66px auto 42px;
+    text-decoration: none;
+
+    
+}
+.copiright {
+    text-align: right;
+    letter-spacing: 2.4px;
+    line-height: 20px;
+    padding-right: 105px;
+    padding-bottom: 29px;
+}
