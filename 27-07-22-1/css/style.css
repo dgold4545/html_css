@@ -1,0 +1,11 @@
+body div {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: #e334;
+    
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
