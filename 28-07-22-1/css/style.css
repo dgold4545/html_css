@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(167, 167, 167);
+}
+div {
+    margin: 0 auto;
+}
+
+.box {
+    max-width: 50%;
+    min-height: 300px;
+    background-color: green;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.box130 {
+    width: 120%;
+    min-height: 200px;
+    background-color: yellowgreen;
+    border: 1px solid #000;
+    position: absolute;
+    left: -10%;
+    top: 5%;
+}
+
+.box130 img {
+    margin-left: 2%;
+}
