@@ -18,7 +18,7 @@
 }
 
 .main {
-    background-color: #e3e3e4;
+    background-color: #f2f3;
     text-align: center;
 }
 .main__link {
@@ -32,4 +32,24 @@
 }
 .main__title_blue {
     color: #fff;
+}
+
+.footer {
+    background-color: #a13030;
+}
+
+
+.footer__link {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.footer__description {
+    color: #fff;
+    font-size: 32px;
+}
+.footer__description_blue {
+    color: #3d90a9;
 }
