@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    background-color: #e3e3e3;
+    padding: 10px 0;
+}
+.header__link {
+    text-decoration: none;
+    
+}
+.header__logo {
+    color: white;
+    font-size: 32px;
+}
+
+.header__logo_blue {
+    color :#3da97d;
+}
