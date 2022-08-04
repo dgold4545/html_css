@@ -53,3 +53,27 @@
 .footer__description_blue {
     color: #3d90a9;
 }
+
+.after-footer {
+    background-color: rgb(76, 221, 81);
+    margin: 10px 0;
+}
+
+.after-footer__link {
+    text-decoration: none;
+}
+
+.after-footer__container-flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+.after-footer__header_blue {
+    font-size: inherit;
+    font-weight: 400;
+    color: #3d90a9;
+    
+}
