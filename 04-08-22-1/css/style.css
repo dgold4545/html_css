@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #e3e3e3;
     padding: 10px 0;
+    margin: 5px auto;
 }
 .header__link {
     text-decoration: none;
@@ -14,4 +15,21 @@
 
 .header__logo_blue {
     color :#3da97d;
+}
+
+.main {
+    background-color: #e3e3e4;
+    text-align: center;
+}
+.main__link {
+    text-decoration: none;
+    display: inline-block;
+}
+.main__title {
+    color: #3d90a9;
+    font-size: 42px;
+    font-weight: 400;
+}
+.main__title_blue {
+    color: #fff;
 }
