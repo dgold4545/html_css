@@ -1,0 +1,36 @@
+.main__card {
+    position: relative;
+    max-width: 25%;
+}
+.main__img {
+    position: absolute;
+    z-index: 1;
+}
+.main__description {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    padding: 10px;
+    border: 1px solid rgb(229, 146, 57);
+    border-radius: 20px 0 20px 0;
+    color: orangered;
+    /* opacity: 0; */
+    /* z-index: -1; */
+}
+
+.main__price {
+    position: absolute;
+    bottom: -12px;
+    left: 46px;
+    box-sizing: border-box;
+    padding: 15px 100px;
+    border: 1px solid orange;
+    color: orangered;
+    background-color: rgb(221, 178, 37);
+    /* opacity: 0; */
+    /* z-index: -1; */
+}
+
+.main__img:hover{
+    border: 1px solid #000;
+}
