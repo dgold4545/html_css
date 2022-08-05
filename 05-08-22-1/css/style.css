@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 25%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.orange-bar {
+    height: 55px;
+    width: 295px;
+    background-color: orange;
+    color: white;
+    position: absolute;
+    top: 166px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.card-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-link:after {
+    content: '';
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 0;
+    height: 0;
+    border-top: 2px solid transparent;
+    border-left: 4px solid red;
+    border-bottom: 2px solid transparent;
+}
+.card-img {
+    position: relative;
+    z-index: 2;
+    /* transition-duration: .5s; */
+}
+.card-desc {
+    text-align: center;
+    /* transition-duration: .1s; */
+
+}
+ul:hover .card-img {
+    z-index: -1;
+    
+}
+ul:hover .card-desc {
+    color: orange;
+}
