@@ -1,0 +1,30 @@
+body {
+    background-color: #aaa;
+}
+.flex {
+    max-width: 800px;
+    
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    gap: 5px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    border: 1px solid #000;
+}
+li {
+    width: 259px;
+    height: 200px;
+    background-color: #e3e4;
+}
+
+.two {
+    height: 249px;
+    margin-right: 5px;
+}
+.three {
+    height: 130px;
+}
