@@ -1,0 +1,23 @@
+.link {
+    padding: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: #aaa;
+    border: 1px solid #000;
+    text-decoration: none;
+    transition: width, 2s;
+    text-align-last: center;
+}
+.text {
+    background-color: green;
+    
+}
+
+.text:hover {
+    transition: color, 1s;
+    color: red;
+}
+.link:hover {
+    
+    width: 200px;
+}
