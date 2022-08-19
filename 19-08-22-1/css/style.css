@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(146, 144, 144);
+}
+.container{
+    background-image: url(../img/bgc/background\ 1.png);
+    
+    background-size: cover;
+    background-position: center;
+    padding: 0 16px;
+}
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header,
+.main,
+.footer {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+    margin-bottom: 22px;
+}
+
+.header-left-side {
+    display: flex;
+    
+}
+.header-left-side__link {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-left-side__logo {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    bottom: 3px;
+}
+.header-left-side__title {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 1;
+    color: #fff;
+
+}
+.header-left-side__title span {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.header-right-side {
+    display: flex;
+    flex-flow: column;
+}
+.header-right-side__link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+    text-align: right;
+}
+.header-right-side__link + .header-right-side__link {
+    margin-top: 19px;
+}
+
+.tour-card {
+    color: #fff;
+    max-width: 300px;
+    cursor: pointer;
+}
+.tour-card__photo {
+    display: block;
+}
+
+.tour-card__hover-des {
+    position: relative;
+    top: -57px;
+    left: 2px;
+    z-index: -1;
+    min-height: 55px;
+    padding-left: 16px;
+    background-color: #F26522;
+    box-sizing: border-box;
+}
+.tour-card:hover .tour-card__hover-des {
+    z-index: 1;
+    
+}
+.tour-card:hover .tour-card__tours {
+    color: #F26522;
+}
+.tour-card__word {
+    padding: 8px 0 8px;
+    font-size: 10px;
+    line-height: 1;
+}
+.tour-card__detail {
+    display: flex;
+    justify-content: space-between;
+}
+.tour-card__price {
+    font-size: 20px;
+    line-height: 1;
+}
+.tour-card__view {
+    font-size: 14px;
+    line-height: 1;
+}
+.tour-card__view::after {
+    content: '';
+    background-image: url(../img/logo_vector/Vector1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    margin: 0 16px;
+    
+}
+.tour-card__tours {
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 38px;
+}
+
+
+.footer__copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    padding: 0 0 16px;
+}
+
+
+
