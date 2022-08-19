@@ -1,0 +1,97 @@
+.a {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 100px auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.b {
+    position: relative;
+    top: 0;
+    background: bisque;
+}
+
+.b .p-1,
+.b .p-2,
+.b .p-3 {
+    padding: 10px;
+    text-align: center;
+    background: orangered;
+}
+
+/* .b .p-3 {
+    position: absolute;
+    left: -88px;
+    top: 39px;
+} */
+
+.a:hover>.b {
+    animation-name: ttt;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ttt {
+    0% {}
+
+    100% {
+        top: -38px;
+        left: 0
+    }
+
+    /* 100% {
+        left: 90px;
+        top: -38px;
+    } */
+}
+
+.good {
+    margin-top: 30px;
+
+}
+
+.card {
+    width: 300px;
+    height: 230px;
+    list-style-type: none;
+    position: relative;
+    overflow: hidden;
+
+}
+.card__price {
+    top: 260px;
+    width: 300px;
+    height: 50px;
+    background-color: #535353;
+    color: aliceblue;
+    position: absolute;
+}
+
+.card:hover .card__price {
+    /* top: 135px; */
+    animation-name: ttt;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+/* .a:hover>.b {
+    animation-name: ttt;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+} */
+
+@keyframes ttt {
+    0% {}
+
+    100% {
+        top: 150px;
+        left: 40;
+        /* height: 70px; */
+    }
+
+    /* 100% {
+        left: 90px;
+        top: -38px;
+    } */
+}
