@@ -1,3 +1,10 @@
+.main {
+    background-color: rgb(99, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .link {
     padding: 20px;
     width: 100px;
@@ -20,4 +27,87 @@
 .link:hover {
     
     width: 200px;
+}
+
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 37px;
+    column-gap: 60px;
+}
+
+.tour-card {
+    color: #fff;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.tour-card__photo {
+    display: block;
+    width: 300px;
+    height: 219px;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.tour-card__hover-des {
+    position: relative;
+    width: 300px;
+    top: -54px;
+    left: 0px;
+    z-index: -1;
+    min-height: 55px;
+    padding-left: 16px;
+    background-color: #F26522;
+    box-sizing: border-box;
+    transition:  0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.tour-card:hover .tour-card__hover-des {
+    z-index: 1;
+
+}
+
+.tour-card:hover .tour-card__tours {
+    color: #F26522;
+}
+
+.tour-card__word {
+    padding: 8px 0 8px;
+    font-size: 10px;
+    line-height: 1;
+}
+
+.tour-card__detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-card__price {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.tour-card__view {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.tour-card__view::after {
+    content: '';
+    background-image: url(../img/logo_vector/Vector1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    margin: 0 16px;
+
+}
+
+.tour-card__tours {
+    text-align: center;
+    margin-top: -30px;
+    /* margin-bottom: 38px; */
 }
