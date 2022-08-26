@@ -51,3 +51,15 @@
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
 }
+
+.border-bottom {
+    color: navy;
+    display: inline-block;
+}
+.border-bottom:hover:after {
+    content: '';
+    display: block;
+    width: 174px;
+    height: 1px;
+    background-color: red;
+}
