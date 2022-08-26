@@ -116,11 +116,11 @@
     padding-left: 16px;
     background-color: #F26522;
     box-sizing: border-box;
-    transition: z-index 0.5ms;
+    transition: z-index 0.4ms;
 }
 .tour-card:hover .tour-card__hover-des {
     z-index: 1;
-    
+    transition: z-index 0.4ms;
 }
 .tour-card:hover .tour-card__tours {
     color: #F26522;
